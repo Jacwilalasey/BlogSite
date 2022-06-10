@@ -31,9 +31,36 @@ body {
     font-size: 4rem;
 }
 
+.navbar.scrolled {
+    background: #344e41;
+    transition: background 500ms;
+}
+
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
     }
 }
+
+.blurb h2 {
+    color: #dad7cd;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #e9c46a;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*.post {
+    border-radius: 50%;
+}*/
